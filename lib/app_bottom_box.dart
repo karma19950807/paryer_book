@@ -18,35 +18,9 @@ class AppBottomBox extends StatelessWidget {
             height: 55,
             child: RaisedButton(
               child: Text(
-                'རྒྱལ་པོའི་བརྟན་བཞུགས།',
-                style: TextStyle(
-                    fontSize: 50, color: Colors.white, fontFamily: 'UChen'),
-              ),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SecondRoute()),
-                );
-              },
-              color: Colors.black,
-              textColor: Colors.white,
-              splashColor: Colors.amber,
-              shape: new RoundedRectangleBorder(
-                  borderRadius: new BorderRadius.circular(30.0),
-                  side: BorderSide(color: Colors.white10, width: 2)),
-            ),
-          ),
-          new Container(
-            margin: new EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
-          ),
-          SizedBox(
-            width: 250,
-            height: 55,
-            child: RaisedButton(
-              child: Text(
                 'སྔོན་བརྗོད།',
                 style: TextStyle(
-                    fontSize: 50, color: Colors.white, fontFamily: 'UChen'),
+                    fontSize: 30, color: Colors.white, fontFamily: 'Jomolhari'),
               ),
               onPressed: () {
                 Navigator.push(
@@ -70,9 +44,35 @@ class AppBottomBox extends StatelessWidget {
             height: 55,
             child: RaisedButton(
               child: Text(
+                'ཞབས་བརྟན།',
+                style: TextStyle(
+                    fontSize: 30, color: Colors.white, fontFamily: 'Jomolhari'),
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SecondRoute()),
+                );
+              },
+              color: Colors.black,
+              textColor: Colors.white,
+              splashColor: Colors.amber,
+              shape: new RoundedRectangleBorder(
+                  borderRadius: new BorderRadius.circular(30.0),
+                  side: BorderSide(color: Colors.white10, width: 2)),
+            ),
+          ),
+          new Container(
+            margin: new EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
+          ),
+          SizedBox(
+            width: 250,
+            height: 55,
+            child: RaisedButton(
+              child: Text(
                 'དཀར་ཆག།',
                 style: TextStyle(
-                    fontSize: 50, color: Colors.white, fontFamily: 'UChen'),
+                    fontSize: 30, color: Colors.white, fontFamily: 'Jomolhari'),
               ),
               onPressed: () {
                 Navigator.push(

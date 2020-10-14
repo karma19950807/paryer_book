@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
           child: Text(
             'ནང་ཆོས་དཔེ་དེབ།',
             style: TextStyle(
-                fontSize: 60, color: Colors.black, fontFamily: 'UChen'),
+                fontSize: 40, color: Colors.black, fontFamily: 'Jomolhari'),
           ),
         ),
         backgroundColor: Colors.deepOrange,

@@ -10,9 +10,9 @@ class FourthRoute extends StatelessWidget {
           child: Text(
             'དཀར་ཆག།',
             style: TextStyle(
-              fontSize: 60,
+              fontSize: 40,
               color: Colors.black,
-              fontFamily: 'UChen',
+              fontFamily: 'Jomolhari',
             ),
           ),
         ),

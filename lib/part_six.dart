@@ -27,9 +27,6 @@ import 'package:prayer_book/part_twentyfive.dart';
 import 'package:prayer_book/part_twentysix.dart';
 import 'package:prayer_book/part_twentyseven.dart';
 import 'package:prayer_book/part_twentyeight.dart';
-import 'package:prayer_book/part_twentynine.dart';
-import 'package:prayer_book/part_thirty.dart';
-import 'package:prayer_book/part_thirtyone.dart';
 import 'package:prayer_book/homepage.dart';
 
 class PartSix extends StatelessWidget {
@@ -52,73 +49,73 @@ class PartSix extends StatelessWidget {
                     text: '',
                     style: TextStyle(
                       fontSize: 50.0,
-                      fontFamily: 'UChen',
+                      fontFamily: 'Jomolhari',
                       color: Colors.black,
                     ),
                     children: <TextSpan>[
                       TextSpan(
                         text: '༈ བསམ་པ་མྱུར་འགྲུབ་ནི།\n',
                         style: TextStyle(
-                          fontSize: 50.0,
-                          fontFamily: 'UChen',
-                          height: 1,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 0.35,
+                          fontSize: 35.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
                         text:
                             'ཨེ་མ་ཧོཿ མཚོ་དབུས་གེ་སར་པདྨའི་སྡོང་པོ་ལ། །སྐུ་ལྔ་ཡེ་ཤེས་ལྷུན་གྱིས་གྲུབ་པའི་ལྷ། །རང་བྱུང་ཆེན་པོ་པདྨ་ཡབ་ཡུམ་ནི། །མཁའ་འགྲོའི་སྤྲིན་ཕུང་འཁྲིགས་ལ་གསོལ་བ་འདེབས། །བསམ་པ་མྱུར་དུ་འགྲུབ་པར་བྱིན་གྱིས་རློབས།	།ལས་ངན་སྤད་པའི་རྣམ་སྨིན་མཐུས་བསྐྱེད་པའི། །ནད་གདོན་བར་ཆད་དམག་འཁྲུག་མུ་གེའི་ཚོགས། །ཁྱོད་ཞལ་དྲན་པའི་མོད་ལ་ཟད་བྱེད་པའི། །ཞལ་བཞེས་སྙིང་ནས་བསྐུལ་ལོ་ཨུ་རྒྱན་རྗེ།	།བསམ་པ་མྱུར་དུ་འགྲུབ་པར་བྱིན་གྱིས་རློབས། །དད་དང་ཚུལ་ཁྲིམས་གཏོང་ལ་གོམས་པ་དང། །ཐོས་པས་རྒྱུད་གྲོལ་ཁྲེལ་ཡོད་ངོ་ཚ་ཤེས། །ཤེས་རབ་ཕུན་སུམ་ཚོགས་པའི་ནོར་བདུན་པོ། །སེམས་ཅན་ཀུན་གྱི་རྒྱུད་ལ་རབ་ཞུགས་ནས། །འཇིག་རྟེན་བདེ་སྐྱིད་ལྡན་པར་དབུགས་འབྱིན་མཛོད།	།བསམ་པ་མྱུར་དུ་འགྲུབ་པར་བྱིན་གྱིས་རློབས། །གང་ལ་ནད་དང་སྡུག་བསྔལ་མི་འདོད་ཀུན། །འབྱུང་པོའི་གདོན་དང་རྒྱལ་པོའི་ཆད་པ་དང།	།མེ་ཆུ་གཅན་གཟན་ལམ་འཕང་འཇིགས་པ་སོགས། །ཚེ་ཡི་ཕ་མཐར་གཏུགས་པའི་གནས་སྐབས་ཀུན།	།སྐྱབས་དང་རེ་ས་གཞན་ན་མ་མཆིས་པས། །ཐུགས་རྗེས་ཟུངས་ཤིག་གུ་རུ་ཨུ་རྒྱན་རྗེ།	།བསམ་པ་མྱུར་དུ་འགྲུབ་པར་བྱིན་གྱིས་རློབས།།',
                         style: TextStyle(
-                          fontSize: 50.0,
-                          height: 1,
-                          fontFamily: 'UChen',
-                          letterSpacing: 0.35,
+                          fontSize: 30.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
                         ),
                       ),
                       TextSpan(
                         text: ' གསོལ་འདེབས་ནི།',
                         style: TextStyle(
-                          fontSize: 40.0,
-                          height: 1,
-                          fontFamily: 'UChen',
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 0.35,
+                          fontSize: 25.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
                         text:
                             ' དུས་གསུམ་སངས་རྒྱས་གུ་རུ་རིན་པོ་ཆེ༔	དངོས་གྲུབ་ཀུན་བདག་བདེ་བ་ཆེན་པོའི་ཞབས༔	བར་ཆད་ཀུན་སེལ་བདུད་འདུལ་དྲག་པོ་རྩལ༔ གསོལ་བ་འདེབས་སོ་བྱིན་གྱིས་བརླབ་ཏུ་གསོལ༔ ཕྱི་ནང་གསང་བའི་བར་ཆད་ཞི་བ་དང༔	བསམ་པ་ལྷུན་གྱིས་འགྲུབ་པར་བྱིན་གྱིས་རློབས༔',
                         style: TextStyle(
-                          fontSize: 50.0,
-                          height: 1,
-                          fontFamily: 'UChen',
-                          letterSpacing: 0.35,
+                          fontSize: 30.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
                         ),
                       ),
                       TextSpan(
                         text: ' གྲངས་གསོག།',
                         style: TextStyle(
-                          fontSize: 40.0,
-                          height: 1,
-                          fontFamily: 'UChen',
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 0.35,
+                          fontSize: 25.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
                         text:
                             ' ཨུ་རྒྱན་རིན་པོ་ཆེ་ལ་གསོལ་བ་འདེབས། །འགལ་རྐྱེན་བར་ཆད་མི་འབྱུང་ཞིང། །མཐུན་རྐྱེན་བསམ་པ་འགྲུབ་པ་དང།	།མཆོག་དང་མཐུན་མོང་དངོས་གྲུབ་སྩལ་དུ་གསོལ། །དགེ་བ་འདི་ཡིས་མྱུར་དུ་བདག །ཨུ་རྒྱན་པདྨ་འགྲུབ་གྱུར་ནས། །འགྲོ་བ་གཅིག་ཀྱང་མ་ལུས་པ། །དེ་ཡི་ས་ལ་འགོད་པར་ཤོག །ཁྱོད་ལ་བསྟོད་ཅིང་གསོལ་བ་བཏབ་པའི་མཐུས།	།བདག་སོགས་གང་དུ་གནས་པའི་ས་ཕྱོགས་སུ།	།ནད་གདོན་དབུལ་ཕོངས་འཐབ་རྩོད་ཞི་བ་དང། །ཆོས་དང་བཀྲ་ཤིས་འཕེལ་བར་མཛད་དུ་གསོལ།།	།།',
                         style: TextStyle(
-                          fontSize: 50.0,
-                          height: 1,
-                          fontFamily: 'UChen',
-                          letterSpacing: 0.35,
+                          fontSize: 30.0,
+                          height: 1.35,
+                          fontFamily: 'Jomolhari',
+                          letterSpacing: 0,
                           color: Colors.black,
                         ),
                       ),
@@ -142,9 +139,9 @@ class PartSix extends StatelessWidget {
                     'དཀར་ཆག།',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 50.0,
+                      fontSize: 35.0,
                       fontWeight: FontWeight.bold,
-                      fontFamily: 'UChen',
+                      fontFamily: 'Jomolhari',
                     ),
                   ),
                 ),
@@ -157,10 +154,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༽ ཟབ་ལམ་སྔོན་འགྲོ་ཤིན་ཏུ་བསྡུས་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -179,10 +176,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༽ འཕགས་པ་བཀྲ་ཤིས་བརྒྱད་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -201,10 +198,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༣༽ སྐྱབས་འགྲོ་མ་ནམ་བཞི་སྐོར།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -223,10 +220,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༤༽ ཐུབ་དབང་སྒྲུབ་ཐབས།།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -245,10 +242,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༥༽ གུ་རུའི་ཚིག་བདུན་གསོལ་འདེབས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -267,10 +264,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༦༽ བསམ་པ་མྱུར་འགྲུབ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -289,10 +286,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༧༽ ཞབས་དྲུང་དག་སྣང་བླ་སྒྲུབ་དོན་བསྡུས་གསོལ་འདེབས་བྱིན་རླབས་སྤྲིན་ཕུང་།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -311,10 +308,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༨༽ སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -333,10 +330,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༩༽ ཚེ་སྒྲུབ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -355,10 +352,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༠༽ རི་བོ་བསངས་མཆོད།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -377,10 +374,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༡༽ རྩ་གསུམ་དམ་ཅན་རྒྱ་མཚོའི་གསོལ་བསྡུས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -399,10 +396,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༢༽ བར་དོ་གསོལ་འདེབས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -421,10 +418,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༣༽ འཕགས་པའི་གསོལ་འདེབས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -443,10 +440,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༤༽ སྤན་རས་གཟིགས་ཀྱི་སྒྲུབ་ཐབས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -465,10 +462,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༥༽ འཕགས་པའི་གསོལ་འདེབས་མཛོད་གཅིག་མ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -487,10 +484,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༦༽ མར་མེ་སྨོན་ལམ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -509,10 +506,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༧༽ བྱང་ཆུབ་ལྟུང་བཤགས།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -531,10 +528,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༨༽ འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -553,10 +550,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༡༩༽ རྒྱལ་བ་བྱམས་པའི་སྨོན་ལམ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -575,10 +572,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༠༽ རྣམ་དག་བདེ་ཆེན་ཞིང་གི་སྨོན་ལམ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -597,10 +594,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༡༽ ཀུན་ཏུ་བཟང་པོའི་སྨོན་ལམ་སྟོབས་པོ་ཆེ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -619,10 +616,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༢༽ སྨོན་ལམ་ཚོགས་གཉིས་འཕེལ་བྱེད།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -641,10 +638,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༣༽ དཔལ་ལྡན་འབྲུག་པའི་བསྟན་པ་རྒྱས་པའི་སྨོན་ལམ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -663,10 +660,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༤༽ སྨོན་ལམ་གྲུབ་རྒྱལ་མ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -685,10 +682,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༥༽ ཆོས་ཐུན་གནང་སྐབས་གཏང་དགོས་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -707,10 +704,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༦༽ སྨན་བླ་བསྡུས་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -729,10 +726,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༧༽ ཇ་མཆོད་དང་ཟས་མཆོད་ཀྱི་རིམ་པ།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -751,10 +748,10 @@ class PartSix extends StatelessWidget {
               title: Text(
                 '༢༨༽ སྒྲིག་གཞི།',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
+                  fontSize: 25.0,
+                  height: 1.35,
+                  fontFamily: 'Jomolhari',
+                  letterSpacing: 0,
                   color: Colors.black,
                 ),
               ),
@@ -762,72 +759,6 @@ class PartSix extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => PartTwentyEight()),
-                );
-              },
-            ),
-            Divider(
-              height: 5,
-              thickness: 2,
-            ),
-            ListTile(
-              title: Text(
-                '༢༩༽ མི་དབང་འཇིགས་མེད་གེ་སར་རྣམ་རྒྱལ་དབང་ཕྱུག་མཆོག་གི་ཞབས་བརྟན།',
-                style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
-                  color: Colors.black,
-                ),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => PartTwentyNine()),
-                );
-              },
-            ),
-            Divider(
-              height: 5,
-              thickness: 2,
-            ),
-            ListTile(
-              title: Text(
-                '༣༠༽ སྐྱབས་རྗེ་ཁྲི་རབས་༧༠	པ་སྤྲུལ་སྐུ་འཇིགས་མེད་ཆོས་གྲགས་མཆོག་གི་ཞབས་བརྟན།',
-                style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
-                  color: Colors.black,
-                ),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => PartThirty()),
-                );
-              },
-            ),
-            Divider(
-              height: 5,
-              thickness: 2,
-            ),
-            ListTile(
-              title: Text(
-                '༣༡༽ ཞབས་བརྟན་དད་པའི་སྒྲ་དབྱངས།',
-                style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'UChen',
-                  height: 1,
-                  letterSpacing: 0.35,
-                  color: Colors.black,
-                ),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => PartThirtyOne()),
                 );
               },
             ),

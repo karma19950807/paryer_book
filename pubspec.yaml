@@ -52,11 +52,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - images/logo.png
-   - images/drawerpic.png
-   - images/home.png
-   - images/homepage.png
-   - images/homep.png
    - images/pagehome.png
   #   - images/a_dot_ham.jpeg
 
@@ -86,14 +81,6 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   fonts:
-    - family: Tashi
-      fonts:
-        - asset: fonts/Tashi.ttf
-
-    - family: Wangdi
-      fonts:
-        - asset: fonts/Wangdi.ttf
-
     - family: UChen
       fonts:
         - asset: fonts/UChen.ttf
@@ -101,4 +88,8 @@ flutter:
     - family: Joyig
       fonts:
         - asset: fonts/Joyig.ttf
+
+    - family: Jomolhari
+      fonts:
+        - asset: fonts/Jomolhari-alpha3c-0605331.ttf
 

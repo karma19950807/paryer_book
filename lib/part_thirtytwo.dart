@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:prayer_book/part_thirtytwo.dart';
 import 'package:prayer_book/part_twentynine.dart';
 import 'package:prayer_book/part_thirty.dart';
+import 'package:prayer_book/part_thirtyone.dart';
 import 'package:prayer_book/homepage.dart';
 
-class PartThirtyOne extends StatelessWidget {
+class PartThirtyTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,20 +30,19 @@ class PartThirtyOne extends StatelessWidget {
                     ),
                     children: <TextSpan>[
                       TextSpan(
-                        text:
-                            '༈ ལས་ཚོགས་སློབ་དཔོན་སངས་རྒྱས་རྡོ་རྗེ་མཆོག་གི་ཞབས་བརྟན་དད་པའི་སྒྲ་དབྱངས་བཞུགས་སོ།། \n',
+                        text: '༈ རྒྱལ་པོའི་བརྟན་བཞུགས། \n',
                         style: TextStyle(
                           fontSize: 35.0,
-                          height: 1.35,
                           fontFamily: 'Jomolhari',
+                          height: 1.35,
+                          fontWeight: FontWeight.bold,
                           letterSpacing: 0,
                           color: Colors.black,
-                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       TextSpan(
                         text:
-                            '༄༅། །ཨོཾ་སྭསྟི། \nདྲི་མེད་ཚུལ་ཁྲིམས་གཙང་མའི་མཁའ་དབྱིངས་སུ།། \nམང་ཐོས་ལུང་རིག་ཟབ་མོའི་སྤྲིན་ཕུང་འཁྲིགས།། \nགཞན་ཕན་ལྷག་བསམ་བདུད་རྩིའི་ཕུང་པོ་ཅན།། \nངག་དབང་ཤེས་རབ་རྒྱ་མཚོ་ཞབས་བརྟན་གསོལ།། \n\nཐོས་བསམ་སྒོམ་པས་གཞུང་ལུགས་རྒྱ་མཚོའི་དོན།། \nམངོན་སུམ་སྐལ་ལྡན་བུ་ལ་ལེགས་འདོམས་པས།། \nརིས་མེད་བསྟན་པའི་དཔལ་གྱུར་དགེ་བའི་བཤེས།། \nམཚུངས་མེད་བླ་མ་བསྐལ་བརྒྱར་འཚོ་གཞེས་གསོལ།། \n\nདེ་ལྟར་གསོལ་བ་བཏབ་པའི་དགེ་ཚོགས་ཀྱིས།། \nབཤེས་གཉེན་མཆོག་ཁྱེད་སྐུ་ཚེ་ཡུན་དུ་བརྟན།། \nཕྱི་ནང་བར་ཆད་མ་ལུས་ཀུན་ཞི་ནས།། \nམཛད་འཕྲིན་ཕོགས་དུས་ཀུན་ཏུ་རྒྱས་གྱུར་ཅིག། \n\nབླ་མ་སྐུ་ཁམས་བཟང་བར་གསོལ་བ་འདེབས། །མཆོག་ཏུ་སྐུ་ཚེ་རིང་བར་གསོལ་བ་འདེབས། །འཕྲིན་ལས་དར་ཞིང་རྒྱས་པར་གསོལ་བ་འདེབས། །བླ་མ་དང་འབྲལ་བ་མེད་པར་བྱིན་གྱིས་རློབས། །དཔལ་ལྡན་བླ་མའི་རྣམ་པར་ཐར་པ་ལ། །སྐད་ཅིག་ཙམ་ཡང་ལོག་ལྟ་མི་སྐྱེ་ཞིང་། །ཅི་མཛད་ལེགས་པར་མཐོང་བའི་མོས་གུས་ཀྱིས། །བླ་མའི་བྱིན་རླབས་སེམས་ལ་འཇུག་པར་ཤོག	།སྐྱེ་བ་ཀུན་ཏུ་ཡང་དག་བླ་མ་དང་། །འབྲལ་མེད་ཆོས་ཀྱི་དཔལ་ལ་ལོངས་སྤྱོད་ཅིང།	།ས་དང་ལམ་གྱི་ཡོན་ཏན་རབ་རྫོགས་ནས།	།རྡོ་རྗེ་འཆང་གི་གོ་འཕང་མྱུར་ཐོབ་ཤོག། །།',
+                            '༄༅།  །འབྲུག་ཙན་དན་བཀོད་པའི་རྒྱལ་ཁབ་ནང་།།\nདཔལ་ལུགས་གཉིས་བསྟན་སྲིད་སྐྱོང་བའི་མགོན།།\nའབྲུག་རྒྱལ་པོ་མངའ་བདག་རིན་པོ་ཆེེ།།\nསྐུ་འགྱུར་མེད་བརྟན་ཅིང་ཆབ་སྲིད་འཕེལ།།\nཆོས་སངས་རྒྱས་བསྟན་པ་དར་ཞིང་རྒྱས།།\nའབངས་བདེ་སྐྱིད་ཉི་མ་ཤར་བར་ཤོག།\n',
                         style: TextStyle(
                           fontSize: 30.0,
                           height: 1.35,
